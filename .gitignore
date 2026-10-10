@@ -18,6 +18,9 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+## Legacy
+ProductListApp.xcodeproj/
+
 ## Other
 *.moved-aside
 *.xcuserstate
