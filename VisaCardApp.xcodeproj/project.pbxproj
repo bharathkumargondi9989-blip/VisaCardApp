@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92BD416310FB4BB4901608A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBD96BE27A44109ACD95298 /* Assets.xcassets */; };
-		EC40B8DDA25345FABC70B48D /* VisaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A6A0DF69E4879BB923F72 /* VisaCardView.swift */; };
-		FCC872C699E44D279DEBD279 /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B84E5252FE457C8F9ABB85 /* NewTransactionViewController.swift */; };
 		1604DF7CCBB9490FA6548A0C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2D35DA7BB4FE69531D3DA /* NetworkError.swift */; };
 		1ACE9779446549468E5FC999 /* StateRateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383B659AE144FC08E699F0D /* StateRateModels.swift */; };
 		212737CE393648F7A3C92F4B /* CardDashboardViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624CC67523C4812B1E493BE /* CardDashboardViewModelProtocol.swift */; };
@@ -21,9 +18,11 @@
 		45EEB895A91A44A39DBBF930 /* CardDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA76A6513D5404E8F3B9B7F /* CardDashboardViewController.swift */; };
 		616C859FE52A406794834403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C94BE314A4125BBCD4F7C /* SceneDelegate.swift */; };
 		61EB534419AB4198AE632A01 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AE7E6379394123AAA37921 /* SessionManager.swift */; };
+		6F422F40B81C58328DFEE35A /* Pods_VisaCardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F930B7580FB724AFF65D0D /* Pods_VisaCardApp.framework */; };
 		74BC642B82B6401FAED79AD4 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396C4D31CC4D4BD5BCC52520 /* LoginModels.swift */; };
 		7768B74266944327B22A1C25 /* TransactionItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81188CB44BD1496193B5195F /* TransactionItemViewModel.swift */; };
 		89101D2B59444F1595DE2CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CD8CF996E4BE9902B5BA6 /* AppDelegate.swift */; };
+		92BD416310FB4BB4901608A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBD96BE27A44109ACD95298 /* Assets.xcassets */; };
 		95B9324B2064462F9AEDAF92 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351F58D422F340CB9596C2D6 /* TransactionTableViewCell.xib */; };
 		96CE51EF73314BD18FFA0D68 /* CardDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C80D5B737749C687BAE375 /* CardDashboardViewModel.swift */; };
 		9AD3A6D6A86A438B93851A36 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE3719EA0B43B9BF0AC4DB /* NetworkService.swift */; };
@@ -32,14 +31,14 @@
 		C4F55549566543D4A16897B8 /* VisaCardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738289632F4340D292F5DB9C /* VisaCardModels.swift */; };
 		CA6AFAC63AA641808CF3BC57 /* SaveOrderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB27A39EEEC450494F70E11 /* SaveOrderModels.swift */; };
 		CE28AC89109D421D83A69AB4 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE699A39534564AF5A4C93 /* UIColor+Theme.swift */; };
+		EC40B8DDA25345FABC70B48D /* VisaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A6A0DF69E4879BB923F72 /* VisaCardView.swift */; };
 		FA6C6D909A1F4A3CA21A9A59 /* CardDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CCE4F7FBE36454FB9EEFD6D /* CardDashboardViewController.xib */; };
+		FCC872C699E44D279DEBD279 /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B84E5252FE457C8F9ABB85 /* NewTransactionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DBD96BE27A44109ACD95298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
-		DE9A6A0DF69E4879BB923F72 /* VisaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VisaCardView.swift"; sourceTree = "<group>"; };
-		41B84E5252FE457C8F9ABB85 /* NewTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewTransactionViewController.swift"; sourceTree = "<group>"; };
 		0CD018D41F09415D96F4D0BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DBD96BE27A44109ACD95298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172C94BE314A4125BBCD4F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1E5C3C93FD124F02B15240A9 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
 		242920758DE3450B972FF764 /* CardRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepositoryProtocol.swift; sourceTree = "<group>"; };
@@ -48,22 +47,27 @@
 		351F58D422F340CB9596C2D6 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
 		396C4D31CC4D4BD5BCC52520 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
 		39C80D5B737749C687BAE375 /* CardDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDashboardViewModel.swift; sourceTree = "<group>"; };
+		41B84E5252FE457C8F9ABB85 /* NewTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionViewController.swift; sourceTree = "<group>"; };
 		45AE7E6379394123AAA37921 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4EDD26B928E2DC6720A5AF22 /* Pods-VisaCardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaCardApp.release.xcconfig"; path = "Target Support Files/Pods-VisaCardApp/Pods-VisaCardApp.release.xcconfig"; sourceTree = "<group>"; };
 		5CCE4F7FBE36454FB9EEFD6D /* CardDashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardDashboardViewController.xib; sourceTree = "<group>"; };
 		64BE40F109B54DF9ABA9993F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		6BB27A39EEEC450494F70E11 /* SaveOrderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveOrderModels.swift; sourceTree = "<group>"; };
 		6DA76A6513D5404E8F3B9B7F /* CardDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDashboardViewController.swift; sourceTree = "<group>"; };
 		738289632F4340D292F5DB9C /* VisaCardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCardModels.swift; sourceTree = "<group>"; };
+		73F930B7580FB724AFF65D0D /* Pods_VisaCardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisaCardApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81188CB44BD1496193B5195F /* TransactionItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemViewModel.swift; sourceTree = "<group>"; };
 		820D588FC3FC4287814C90EC /* CardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9383B659AE144FC08E699F0D /* StateRateModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRateModels.swift; sourceTree = "<group>"; };
 		A7783DF42ACD4C869CB91F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3CD8CF996E4BE9902B5BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4C7CD8315444BB7AB408ADD /* VisaCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisaCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA963C9675FF006E3D8C6DD /* Pods-VisaCardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisaCardApp.debug.xcconfig"; path = "Target Support Files/Pods-VisaCardApp/Pods-VisaCardApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C65C388DC36A4BA19BE615E1 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		CBCE699A39534564AF5A4C93 /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
 		CDAE3719EA0B43B9BF0AC4DB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		D624CC67523C4812B1E493BE /* CardDashboardViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDashboardViewModelProtocol.swift; sourceTree = "<group>"; };
+		DE9A6A0DF69E4879BB923F72 /* VisaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +75,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F422F40B81C58328DFEE35A /* Pods_VisaCardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D2C88F1A7C6E77B2AD7E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA963C9675FF006E3D8C6DD /* Pods-VisaCardApp.debug.xcconfig */,
+				4EDD26B928E2DC6720A5AF22 /* Pods-VisaCardApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		30CC9828808647058883052F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,11 +169,21 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		8B82C5DA0D4B78AB7BB6C9AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73F930B7580FB724AFF65D0D /* Pods_VisaCardApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E7819C987B54B9AA6B4B0AB = {
 			isa = PBXGroup;
 			children = (
 				A5A403FED71D4A32BBCCD9D6 /* VisaCardApp */,
 				30CC9828808647058883052F /* Products */,
+				17D2C88F1A7C6E77B2AD7E1A /* Pods */,
+				8B82C5DA0D4B78AB7BB6C9AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49E1A515EF0B4B4A8B3D950C /* Build configuration list for PBXNativeTarget "VisaCardApp" */;
 			buildPhases = (
+				F5F71F79E44640E2C012D2B6 /* [CP] Check Pods Manifest.lock */,
 				746FE1A6F6C3469586320F26 /* Sources */,
 				1B423A1D54CD4083BBE5EE26 /* Frameworks */,
 				226A68AD47454B5489F279E4 /* Resources */,
+				2B95A95DCA775A7038A192E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +314,52 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B95A95DCA775A7038A192E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisaCardApp/Pods-VisaCardApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisaCardApp/Pods-VisaCardApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisaCardApp/Pods-VisaCardApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F71F79E44640E2C012D2B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisaCardApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		746FE1A6F6C3469586320F26 /* Sources */ = {
@@ -353,7 +425,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -374,14 +446,16 @@
 		};
 		571145DD96B642DFAEF66CFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDD26B928E2DC6720A5AF22 /* Pods-VisaCardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = VisaCardApp/App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,7 +499,7 @@
 				ENABLE_PREVIEWS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -451,14 +525,16 @@
 		};
 		D5B8EC94A1CC4ED9B7E1711A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA963C9675FF006E3D8C6DD /* Pods-VisaCardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = VisaCardApp/App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
