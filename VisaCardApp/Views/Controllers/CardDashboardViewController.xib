@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="25098" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="25073"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardDashboardViewController" customModule="VisaCardApp" customModuleProvider="target">
+            <connections>
+                <outlet property="availableCreditValueLabel" destination="lbl-avl-val" id="out-avl-val"/>
+                <outlet property="cardPlaceholderView" destination="v-crd-plh" id="out-crd-plh"/>
+                <outlet property="creditProgressBar" destination="prg-crd-bar" id="out-prg-bar"/>
+                <outlet property="detailsButton" destination="btn-dtl-001" id="out-dtl-btn"/>
+                <outlet property="freezeButton" destination="btn-frz-001" id="out-frz-btn"/>
+                <outlet property="greetingLabel" destination="lbl-grt-001" id="out-grt-lbl"/>
+                <outlet property="headerContainerView" destination="v-hdr-cnt" id="out-hdr-cnt"/>
+                <outlet property="limitsButton" destination="btn-lmt-001" id="out-lmt-btn"/>
+                <outlet property="simulateButton" destination="btn-sim-001" id="out-sim-btn"/>
+                <outlet property="spentBalanceValueLabel" destination="lbl-spn-val" id="out-spn-val"/>
+                <outlet property="tableView" destination="tbl-txs-001" id="out-tbl-001"/>
+                <outlet property="transactionBadgeLabel" destination="lbl-bdg-001" id="out-bdg-lbl"/>
+                <outlet property="utilizationLabel" destination="lbl-utl-001" id="out-utl-lbl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="76" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tbl-txs-001">
+                    <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96862745098039216" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="v-hdr-cnt" userLabel="Header View">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="520"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, Bharath 👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-grt-001">
+                                <rect key="frame" x="20" y="13.999999999999998" width="353" height="26.333333333333329"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa Infinite Credit Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-sub-001">
+                                <rect key="frame" x="20" y="42.333333333333336" width="169.33333333333334" height="15.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v-crd-plh" userLabel="Card Placeholder View">
+                                <rect key="frame" x="20" y="74" width="353" height="206"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="h-crd-plh"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="stk-act-001">
+                                <rect key="frame" x="20" y="296" width="353" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btn-frz-001">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="lock.shield" catalog="system" imagePlacement="top" title="Lock" imagePadding="4">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                            <color key="baseForegroundColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapFreeze:" destination="-1" eventType="touchUpInside" id="act-frz-001"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btn-dtl-001">
+                                        <rect key="frame" x="90.666666666666686" y="0.0" width="81" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="eye" catalog="system" imagePlacement="top" title="Details" imagePadding="4">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                            <color key="baseForegroundColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapToggleDetails:" destination="-1" eventType="touchUpInside" id="act-dtl-001"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btn-sim-001">
+                                        <rect key="frame" x="181.66666666666666" y="0.0" width="80.666666666666657" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="cart.badge.plus" catalog="system" imagePlacement="top" title="Spend" imagePadding="4">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                            <color key="baseForegroundColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapSimulatePurchase:" destination="-1" eventType="touchUpInside" id="act-sim-001"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btn-lmt-001">
+                                        <rect key="frame" x="272.33333333333331" y="0.0" width="80.666666666666686" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="slider.horizontal.3" catalog="system" imagePlacement="top" title="Limit" imagePadding="4">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                            <color key="baseForegroundColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapSetLimit:" destination="-1" eventType="touchUpInside" id="act-lmt-001"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="h-stk-act"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v-smr-crd" userLabel="Summary Card">
+                                <rect key="frame" x="20" y="378" width="353" height="96"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVAILABLE CREDIT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-avl-hdr">
+                                        <rect key="frame" x="16.000000000000007" y="14" width="98.666666666666686" height="12"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$11,579.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-avl-val">
+                                        <rect key="frame" x="16.000000000000007" y="29" width="104.66666666666669" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.062745098039215685" green="0.72549019607843135" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CURRENT SPENT" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-spn-hdr">
+                                        <rect key="frame" x="249.33333333333329" y="14" width="87.666666666666657" height="12"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3,420.50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-spn-val">
+                                        <rect key="frame" x="237.33333333333329" y="29" width="99.666666666666657" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="prg-crd-bar">
+                                        <rect key="frame" x="16" y="62" width="321" height="6"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="6" id="h-prg-bar"/>
+                                        </constraints>
+                                        <color key="progressTintColor" red="0.10196078431372549" green="0.12156862745098039" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23% of $15,000.00 used" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-utl-001">
+                                        <rect key="frame" x="16" y="74" width="321" height="13.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="lbl-avl-hdr" firstAttribute="leading" secondItem="v-smr-crd" secondAttribute="leading" constant="16" id="cst-avl-hdr"/>
+                                    <constraint firstItem="lbl-avl-hdr" firstAttribute="top" secondItem="v-smr-crd" secondAttribute="top" constant="14" id="cst-avl-tp"/>
+                                    <constraint firstItem="lbl-avl-val" firstAttribute="leading" secondItem="lbl-avl-hdr" secondAttribute="leading" id="cst-avl-val"/>
+                                    <constraint firstItem="lbl-avl-val" firstAttribute="top" secondItem="lbl-avl-hdr" secondAttribute="bottom" constant="3" id="cst-avl-vtp"/>
+                                    <constraint firstItem="prg-crd-bar" firstAttribute="leading" secondItem="v-smr-crd" secondAttribute="leading" constant="16" id="cst-prg-ld"/>
+                                    <constraint firstItem="prg-crd-bar" firstAttribute="top" secondItem="lbl-avl-val" secondAttribute="bottom" constant="9" id="cst-prg-tp"/>
+                                    <constraint firstAttribute="trailing" secondItem="prg-crd-bar" secondAttribute="trailing" constant="16" id="cst-prg-tr"/>
+                                    <constraint firstItem="lbl-spn-hdr" firstAttribute="top" secondItem="lbl-avl-hdr" secondAttribute="top" id="cst-spn-hdr"/>
+                                    <constraint firstAttribute="trailing" secondItem="lbl-spn-hdr" secondAttribute="trailing" constant="16" id="cst-spn-tr"/>
+                                    <constraint firstItem="lbl-spn-val" firstAttribute="trailing" secondItem="lbl-spn-hdr" secondAttribute="trailing" id="cst-spn-val"/>
+                                    <constraint firstItem="lbl-spn-val" firstAttribute="top" secondItem="lbl-spn-hdr" secondAttribute="bottom" constant="3" id="cst-spn-vtp"/>
+                                    <constraint firstAttribute="bottom" secondItem="lbl-utl-001" secondAttribute="bottom" constant="8.6666666666666714" id="cst-utl-bm"/>
+                                    <constraint firstItem="lbl-utl-001" firstAttribute="leading" secondItem="prg-crd-bar" secondAttribute="leading" id="cst-utl-ld"/>
+                                    <constraint firstItem="lbl-utl-001" firstAttribute="top" secondItem="prg-crd-bar" secondAttribute="bottom" constant="6" id="cst-utl-tp"/>
+                                    <constraint firstItem="lbl-utl-001" firstAttribute="trailing" secondItem="prg-crd-bar" secondAttribute="trailing" id="cst-utl-tr"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recent Activity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-act-hdr">
+                                <rect key="frame" x="20" y="492" width="130.33333333333334" height="21.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 7 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-bdg-001">
+                                <rect key="frame" x="158.33333333333334" y="493" width="28" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="h-bdg-lbl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="w-bdg-lbl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.12156862745098039" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lbl-act-hdr" firstAttribute="leading" secondItem="v-hdr-cnt" secondAttribute="leading" constant="20" id="cst-act-hdr-ld"/>
+                            <constraint firstItem="lbl-act-hdr" firstAttribute="top" secondItem="v-smr-crd" secondAttribute="bottom" constant="18" id="cst-act-hdr-tp"/>
+                            <constraint firstItem="stk-act-001" firstAttribute="leading" secondItem="v-hdr-cnt" secondAttribute="leading" constant="20" id="cst-act-ld"/>
+                            <constraint firstItem="stk-act-001" firstAttribute="top" secondItem="v-crd-plh" secondAttribute="bottom" constant="16" id="cst-act-tp"/>
+                            <constraint firstAttribute="trailing" secondItem="stk-act-001" secondAttribute="trailing" constant="20" id="cst-act-tr"/>
+                            <constraint firstItem="lbl-bdg-001" firstAttribute="centerY" secondItem="lbl-act-hdr" secondAttribute="centerY" id="cst-bdg-cy"/>
+                            <constraint firstItem="lbl-bdg-001" firstAttribute="leading" secondItem="lbl-act-hdr" secondAttribute="trailing" constant="8" id="cst-bdg-ld"/>
+                            <constraint firstItem="v-crd-plh" firstAttribute="leading" secondItem="v-hdr-cnt" secondAttribute="leading" constant="20" id="cst-crd-ld"/>
+                            <constraint firstItem="v-crd-plh" firstAttribute="top" secondItem="lbl-sub-001" secondAttribute="bottom" constant="16" id="cst-crd-tp"/>
+                            <constraint firstAttribute="trailing" secondItem="v-crd-plh" secondAttribute="trailing" constant="20" id="cst-crd-tr"/>
+                            <constraint firstItem="lbl-grt-001" firstAttribute="leading" secondItem="v-hdr-cnt" secondAttribute="leading" constant="20" id="cst-grt-ld"/>
+                            <constraint firstItem="lbl-grt-001" firstAttribute="top" secondItem="v-hdr-cnt" secondAttribute="top" constant="14" id="cst-grt-tp"/>
+                            <constraint firstAttribute="trailing" secondItem="lbl-grt-001" secondAttribute="trailing" constant="20" id="cst-grt-tr"/>
+                            <constraint firstAttribute="bottom" secondItem="lbl-act-hdr" secondAttribute="bottom" constant="6.3333333333333712" id="cst-hdr-bot"/>
+                            <constraint firstItem="v-smr-crd" firstAttribute="leading" secondItem="v-hdr-cnt" secondAttribute="leading" constant="20" id="cst-smr-ld"/>
+                            <constraint firstItem="v-smr-crd" firstAttribute="top" secondItem="stk-act-001" secondAttribute="bottom" constant="16" id="cst-smr-tp"/>
+                            <constraint firstAttribute="trailing" secondItem="v-smr-crd" secondAttribute="trailing" constant="20" id="cst-smr-tr"/>
+                            <constraint firstItem="lbl-sub-001" firstAttribute="leading" secondItem="lbl-grt-001" secondAttribute="leading" id="cst-sub-ld"/>
+                            <constraint firstItem="lbl-sub-001" firstAttribute="top" secondItem="lbl-grt-001" secondAttribute="bottom" constant="2" id="cst-sub-tp"/>
+                        </constraints>
+                    </view>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96862745098039216" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="tbl-txs-001" secondAttribute="bottom" id="cst-tbl-bm"/>
+                <constraint firstItem="tbl-txs-001" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cst-tbl-ld"/>
+                <constraint firstItem="tbl-txs-001" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="cst-tbl-tp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tbl-txs-001" secondAttribute="trailing" id="cst-tbl-tr"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cart.badge.plus" catalog="system" width="128" height="109"/>
+        <image name="eye" catalog="system" width="128" height="82"/>
+        <image name="lock.shield" catalog="system" width="117" height="128"/>
+        <image name="slider.horizontal.3" catalog="system" width="128" height="103"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -12,7 +12,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         let window = UIWindow(windowScene: windowScene)
-        let rootVC = ProductListViewController()
+        let rootVC = CardDashboardViewController()
         let navController = UINavigationController(rootViewController: rootVC)
 
         window.rootViewController = navController

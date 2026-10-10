@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Managed by SceneDelegate
         } else {
             let window = UIWindow(frame: UIScreen.main.bounds)
-            let rootVC = ProductListViewController()
+            let rootVC = CardDashboardViewController()
             let navVC = UINavigationController(rootViewController: rootVC)
             window.rootViewController = navVC
             self.window = window
