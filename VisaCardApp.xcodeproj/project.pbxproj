@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4C7CD8315444BB7AB408ADD /* ProductListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C7CD8315444BB7AB408ADD /* VisaCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisaCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3CD8CF996E4BE9902B5BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate.swift"; sourceTree = "<group>"; };
 		172C94BE314A4125BBCD4F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate.swift"; sourceTree = "<group>"; };
 		A7783DF42ACD4C869CB91F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		8E7819C987B54B9AA6B4B0AB = {
 			isa = PBXGroup;
 			children = (
-				A5A403FED71D4A32BBCCD9D6 /* ProductListApp */,
+				A5A403FED71D4A32BBCCD9D6 /* VisaCardApp */,
 				30CC9828808647058883052F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 		30CC9828808647058883052F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4C7CD8315444BB7AB408ADD /* ProductListApp.app */,
+				B4C7CD8315444BB7AB408ADD /* VisaCardApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			path = "Views";
 			sourceTree = "<group>";
 		};
-		A5A403FED71D4A32BBCCD9D6 /* ProductListApp */ = {
+		A5A403FED71D4A32BBCCD9D6 /* VisaCardApp */ = {
 			isa = PBXGroup;
 			children = (
 				8433E5E7D8B447F18D81BD8B /* App */,
@@ -211,15 +211,15 @@
 				BFE65B1B4087433E9866D461 /* ViewModels */,
 				314EF8AC33F649D3B202B987 /* Views */,
 			);
-			path = "ProductListApp";
+			path = "VisaCardApp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		451EC7158AFF402F95DCFF12 /* ProductListApp */ = {
+		451EC7158AFF402F95DCFF12 /* VisaCardApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49E1A515EF0B4B4A8B3D950C /* Build configuration list for PBXNativeTarget "ProductListApp" */;
+			buildConfigurationList = 49E1A515EF0B4B4A8B3D950C /* Build configuration list for PBXNativeTarget "VisaCardApp" */;
 			buildPhases = (
 				746FE1A6F6C3469586320F26 /* Sources */,
 				1B423A1D54CD4083BBE5EE26 /* Frameworks */,
@@ -229,9 +229,9 @@
 			);
 			dependencies = (
 			);
-			name = ProductListApp;
-			productName = ProductListApp;
-			productReference = B4C7CD8315444BB7AB408ADD /* ProductListApp.app */;
+			name = VisaCardApp;
+			productName = VisaCardApp;
+			productReference = B4C7CD8315444BB7AB408ADD /* VisaCardApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0172EDDD178544E6838C2499 /* Build configuration list for PBXProject "ProductListApp" */;
+			buildConfigurationList = 0172EDDD178544E6838C2499 /* Build configuration list for PBXProject "VisaCardApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,7 +261,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				451EC7158AFF402F95DCFF12 /* ProductListApp */,
+				451EC7158AFF402F95DCFF12 /* VisaCardApp */,
 			);
 		};
 /* End PBXProject section */
@@ -369,14 +369,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = ProductListApp/App/Info.plist;
+				INFOPLIST_FILE = VisaCardApp/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesjump.ProductListApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesjump.VisaCardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,14 +391,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = ProductListApp/App/Info.plist;
+				INFOPLIST_FILE = VisaCardApp/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesjump.ProductListApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesjump.VisaCardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0172EDDD178544E6838C2499 /* Build configuration list for PBXProject "ProductListApp" */ = {
+		0172EDDD178544E6838C2499 /* Build configuration list for PBXProject "VisaCardApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66331AC33AC24CE7A1F4C61C /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49E1A515EF0B4B4A8B3D950C /* Build configuration list for PBXNativeTarget "ProductListApp" */ = {
+		49E1A515EF0B4B4A8B3D950C /* Build configuration list for PBXNativeTarget "VisaCardApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B8EC94A1CC4ED9B7E1711A /* Debug */,

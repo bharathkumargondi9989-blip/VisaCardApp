@@ -1,6 +1,7 @@
 # Xcode
 ## User settings
 xcuserdata/
+**/xcuserdata/
 
 ## Build generated
 build/
