@@ -12,6 +12,7 @@ public enum VisaCardTier: String, Codable {
     }
 }
 
+
 // MARK: - Visa Card Domain Model
 public struct VisaCard: Codable, Identifiable {
     public let id: String
