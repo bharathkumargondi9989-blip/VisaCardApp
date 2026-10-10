@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProductTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="ProductTableViewCell" customModule="ProductListApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crd-bg-001" userLabel="Card Container View">
+                        <rect key="frame" x="14" y="6" width="347" height="88"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="stk-txt-001">
+                                <rect key="frame" x="14" y="12" width="181" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-nam-001">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="21.6"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate: ₹ 0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-rat-001">
+                                        <rect key="frame" x="0.0" y="25.6" width="181" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="hgt-rat-001"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <color key="textColor" systemColor="systemBlueColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtotal: ₹ 0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-sub-001">
+                                        <rect key="frame" x="0.0" y="47.6" width="181" height="16.4"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="stk-stp-001">
+                                <rect key="frame" x="203" y="27" width="130" height="34"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btn-min-001">
+                                        <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="w-btn-min"/>
+                                            <constraint firstAttribute="height" constant="34" id="h-btn-min"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="−">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapMinus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="act-min-001"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="txt-qty-001">
+                                        <rect key="frame" x="40" y="0.0" width="50" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="w-txt-qty"/>
+                                            <constraint firstAttribute="height" constant="34" id="h-txt-qty"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btn-pls-001">
+                                        <rect key="frame" x="96" y="0.0" width="34" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="w-btn-pls"/>
+                                            <constraint firstAttribute="height" constant="34" id="h-btn-pls"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="+">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapPlus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="act-pls-001"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="w-stk-stp"/>
+                                    <constraint firstAttribute="height" constant="34" id="h-stk-stp"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="stk-txt-001" firstAttribute="leading" secondItem="crd-bg-001" secondAttribute="leading" constant="14" id="cst-txt-ld"/>
+                            <constraint firstItem="stk-txt-001" firstAttribute="top" secondItem="crd-bg-001" secondAttribute="top" constant="12" id="cst-txt-tp"/>
+                            <constraint firstAttribute="bottom" secondItem="stk-txt-001" secondAttribute="bottom" constant="12" id="cst-txt-bm"/>
+                            <constraint firstAttribute="trailing" secondItem="stk-stp-001" secondAttribute="trailing" constant="14" id="cst-stp-tr"/>
+                            <constraint firstItem="stk-stp-001" firstAttribute="centerY" secondItem="crd-bg-001" secondAttribute="centerY" id="cst-stp-cy"/>
+                            <constraint firstItem="stk-stp-001" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="stk-txt-001" secondAttribute="trailing" constant="8" id="cst-stp-ld"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="crd-bg-001" secondAttribute="trailing" constant="14" id="cst-crd-tr"/>
+                    <constraint firstItem="crd-bg-001" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="cst-crd-ld"/>
+                    <constraint firstAttribute="bottom" secondItem="crd-bg-001" secondAttribute="bottom" constant="6" id="cst-crd-bm"/>
+                    <constraint firstItem="crd-bg-001" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="cst-crd-tp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cardContainerView" destination="crd-bg-001" id="out-crd-001"/>
+                <outlet property="minusButton" destination="btn-min-001" id="out-min-001"/>
+                <outlet property="nameLabel" destination="lbl-nam-001" id="out-nam-001"/>
+                <outlet property="plusButton" destination="btn-pls-001" id="out-pls-001"/>
+                <outlet property="quantityTextField" destination="txt-qty-001" id="out-qty-001"/>
+                <outlet property="rateLabel" destination="lbl-rat-001" id="out-rat-001"/>
+                <outlet property="subtotalLabel" destination="lbl-sub-001" id="out-sub-001"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
