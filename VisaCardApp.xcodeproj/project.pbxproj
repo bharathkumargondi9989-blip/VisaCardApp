@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92BD416310FB4BB4901608A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBD96BE27A44109ACD95298 /* Assets.xcassets */; };
 		EC40B8DDA25345FABC70B48D /* VisaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A6A0DF69E4879BB923F72 /* VisaCardView.swift */; };
 		FCC872C699E44D279DEBD279 /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B84E5252FE457C8F9ABB85 /* NewTransactionViewController.swift */; };
 		1604DF7CCBB9490FA6548A0C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2D35DA7BB4FE69531D3DA /* NetworkError.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBD96BE27A44109ACD95298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
 		DE9A6A0DF69E4879BB923F72 /* VisaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VisaCardView.swift"; sourceTree = "<group>"; };
 		41B84E5252FE457C8F9ABB85 /* NewTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewTransactionViewController.swift"; sourceTree = "<group>"; };
 		0CD018D41F09415D96F4D0BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		8433E5E7D8B447F18D81BD8B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				0DBD96BE27A44109ACD95298 /* Assets.xcassets */,
 				AD3CD8CF996E4BE9902B5BA6 /* AppDelegate.swift */,
 				172C94BE314A4125BBCD4F7C /* SceneDelegate.swift */,
 				A7783DF42ACD4C869CB91F4E /* Info.plist */,
@@ -277,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92BD416310FB4BB4901608A3 /* Assets.xcassets in Resources */,
 				3AB091D226BA418081452230 /* LaunchScreen.storyboard in Resources */,
 				FA6C6D909A1F4A3CA21A9A59 /* CardDashboardViewController.xib in Resources */,
 				95B9324B2064462F9AEDAF92 /* TransactionTableViewCell.xib in Resources */,
